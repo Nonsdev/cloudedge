@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto:wght@300&display=swap');
+@media screen and (max-width:780px){
+   body{
+    font-family: 'Roboto', sans-serif;
+  }
+    .lorem {
+      display: flex;
+      text-align: center;
+    }
+    h1 {
+      background-color: pink;
+      font-family: monospace;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+      padding-bottom: 20px;
+    }
+    .mid-shadow{
+      /* border-radius: 10px;
+      width: 400px;
+      border: 1px solid grey;
+      margin-top: -30px;
+      box-shadow: -10px -10px 20px rgb(210, 205, 205);
+      border: none; */
+      width: 400px;
+      border: 1px solid grey;
+      margin-top: -30px;
+      box-shadow: -5px -5px 10px grey;
+      border: none;
+
+
+    }
+    .shadow {
+      /* border-radius: 10px;
+      width: 300px;
+      border: 1px solid grey;
+      box-shadow: -5px -5px 10px rgb(238, 234, 234);
+      border: none; */
+      width: 300px;
+      border: 1px solid grey;
+      box-shadow: -1px -1px 5px grey;
+      border: none;
+
+    }
+
+    button {
+      background-color: crimson;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 5px;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    button:hover {
+      background-color: palegreen;
+    }
+  }
